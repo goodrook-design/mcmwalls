@@ -1,0 +1,44 @@
+.form-group label span.hint-text.small-text {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    font-weight: 300 !important;
+    font-style: italic !important;
+    text-transform: initial !important;
+    margin-bottom: 5px !important;
+}
+.deactivate .form-group-default.focused {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+.regularcase {
+	text-transform: none !important;
+}
+label {
+	margin-bottom: 1px;
+}
+
+label.bg-grey {
+    background-color: #eee;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    height: 28px;
+    padding: 2px 12px;
+    line-height: normal;
+    font-size: 12px;
+    min-height: 28px;
+}
+
+/** BORDERS **/
+
+.border-success {
+	border-color: #10cfbd;
+}
+
+.form-write input[type=text] {
+	border: 0 0 0 0 !important;
+	border-bottom: 1px solid #aaa !important;
+}
