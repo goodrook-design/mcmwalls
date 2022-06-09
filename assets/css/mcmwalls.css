@@ -31,7 +31,22 @@ label.bg-grey {
     font-size: 12px;
     min-height: 28px;
 }
-
+.tooltip {
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+.tooltip .tooltip-inner {
+    text-align: left !important;
+}
+.tooltip .tooltip-inner ul {
+    list-style: none;
+    padding: 0;
+}
+.tooltip .tooltip-inner ul li {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    margin-bottom: 7px;
+}
 /** BORDERS **/
 
 .border-success {
