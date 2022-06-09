@@ -11,7 +11,7 @@
     google.maps.event.addDomListener(window, 'load', init);
 
     var map;
-    var zoomLevel = 11;
+    var zoomLevel = 10;
 
     function init() {
         // Basic options for a simple Google Map
