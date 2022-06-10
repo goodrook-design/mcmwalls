@@ -170,10 +170,10 @@
                     </div>
                     <div id="configure-estimate" class="form-row clearfix p-l-20">
                       <div class="col-12">
-                        <div class="form-group form-row form-write clearfix">
+                        <div class="form-group form-row form-write clearfix tight">
                           <h6 class="text-black bold">Configure Walls<i class="fs-14 pg-info"></i></h6>
                           <div class="form-row">
-                            <label class="bg-grey full-width">Wall #1 Information</label>
+                            <label class="bg-grey full-width">Wall #1 Information <i class="fa-solid text-success fa-circle-check pull-right m-t-4 fs-14"></i></label>
                           </div>
                           <div class="form-row clearfix">
                             <div class="form-group col-sm-6">
@@ -191,7 +191,7 @@
                           </div>
                           <div class="form-row clearfix">
                             <div class="form-group col-sm-4">
-                              <label for="formControl-wallStyle" class="regularcase" data-toggle="tooltip" data-html="true" title="<ul><li><b>Minimalist</b>: Basic wood, with natural and protected finish.</li><li><b>Simple</b>: Basic wood, painted, stained; or vertically stacked; or manufactured (i.e. slats).</li><li><b>Moderate</b>: Multiple options from <em>Simple</em>; or irregularly shaped panels; or inclusion of fabric; or configuration for sound absorption.</li><li><b>Complex</b>: Multiple options from <em>Moderate/Simple</em>; or, multi-piece panels.</li><li><b>Art</b>: Let's make it uniquely yours! Graffiti, living walls, moss walls, murals, upholstery, and much more!</li></ul>">#1 overall wall style <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <label for="formControl-wallStyle" class="regularcase" data-toggle="tooltip" data-html="true" title="<ul><li><b>Minimalist</b>: Basic wood with protected natural finish.</li><li><b>Simple</b>: Basic wood, painted, stained; or vertically stacked; or manufactured (i.e. slats).</li><li><b>Moderate</b>: Multiple options from <em>Simple</em>; or irregularly shaped panels; or inclusion of fabric.</li><li><b>Complex</b>: Multiple options from <em>Moderate/Simple</em>; or, multi-piece panels; or configuration for sound absorption.</li><li><b>Art</b>: Let's make it uniquely yours! Graffiti, living walls, moss walls, murals, upholstery, and much more!</li></ul>">#1 overall wall style <i class="fa-solid text-primary fa-circle-info"></i></label>
                               <select class="form-control" id="formControl-wallStyle">
                                 <option>--- select style ---</option>
                                 <option>minimalist</option>
@@ -202,21 +202,21 @@
                               </select>
                             </div>
                             <div class="form-group col-sm-4">
-                              <label for="formControl-upperMould" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 upper/crown moulding <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <label for="formControl-upperMould" class="regularcase" data-toggle="tooltip" data-html="true" title="If this wall has a crown moulding (a decorative strip where the wall meets the ceiling), we can address the area based on these options.">#1 upper/crown moulding <i class="fa-solid text-primary fa-circle-info"></i></label>
                               <select class="form-control" id="formControl-upperMould">
                                 <option>--- choose option ---</option>
-                                <option>no change</option>
+                                <option>no moulding/change</option>
                                 <option>new moulding</option>
                                 <option>black top</option>
                                 <option>unsure</option>
                               </select>
                             </div>
                             <div class="form-group col-sm-4">
-                              <label for="formControl-baseboard" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 baseboards <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <label for="formControl-baseboard" class="regularcase" data-toggle="tooltip" data-html="true" title="As it is likely that this wall has baseboards, choose how you'd like us to address them.">#1 baseboards <i class="fa-solid text-primary fa-circle-info"></i></label>
                               <select class="form-control" id="formControl-baseboard">
                                 <option>--- choose option ---</option>
-                                <option>no change</option>
-                                <option>new baseboards</option>
+                                <option>no baseboards/change</option>
+                                <option>wood baseboards</option>
                                 <option>metal baseboards</option>
                                 <option>metal, with lighting</option>
                                 <option>unsure</option>
@@ -225,15 +225,17 @@
                           </div>
                           <div class="form-row clearfix">
                             <div class="form-group col-sm-4">
-                              <label for="formControl-wallStyle" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 outlets / switches <i class="fa-solid text-primary fa-circle-info"></i></label>
-                              <select class="form-control" id="formControl-wallStyle">
-                                <option>--- select ---</option>
-                                <option>yes</option>
-                                <option>no</option>
+                              <label for="formControl-electrical" class="regularcase" data-toggle="tooltip" data-html="true" title="Outlets and switches will need to be accounted for during the wall installation. If you'd like them to be relocated, this is your opportunity.  If there are multiple, and you'd like to change the location of at least one, choose <em>Relocate</em>.">#1 outlets / switches <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <select class="form-control" id="formControl-electrical">
+                                <option>--- choose option ---</option>
+                                <option>no outlets/switches</option>
+                                <option>remove and reinstall</option>
+                                <option>remove and replace</option>
+                                <option>relocate</option>
                               </select>
                             </div>
                             <div class="form-group col-sm-4">
-                              <label for="formControl-upperMould" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 HVAC units / vents <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <label for="formControl-upperMould" class="regularcase" data-toggle="tooltip" data-html="true" title="If there is an HVAC unit or vent(s) mounted to this wall, we'll need to accomodate, so let us know here.">#1 HVAC units / vents <i class="fa-solid text-primary fa-circle-info"></i></label>
                               <select class="form-control" id="formControl-upperMould">
                                 <option>--- select ---</option>
                                 <option>yes</option>
@@ -241,49 +243,61 @@
                               </select>
                             </div>
                             <div class="form-group col-sm-4">
-                              <label for="formControl-baseboard" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 frames / sills <i class="fa-solid text-primary fa-circle-info"></i></label>
-                              <select class="form-control" id="formControl-baseboard">
+                              <label for="formControl-framesSills" class="regularcase" data-toggle="tooltip" data-html="true" title="When a wall has an opening, we can <em>omit</em> the frame(s)/sill(s) from the wall installation, or <em>include</em> them by fully integrating the surrounding cladding. Choose one of these options to let us know which solution you'd prefer.">#1 frames / sills <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <select class="form-control" id="formControl-framesSills">
                                 <option>--- choose option ---</option>
+                                <option>not applicable</option>
                                 <option>omit</option>
                                 <option>include</option>
                               </select>
                             </div>
                           </div>
                           <div class="form-row clearfix">
-                            <div class="form-group col-sm-6">
-                              <label for="formControl-wallStyle" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 door face(s) <i class="fa-solid text-primary fa-circle-info"></i></label>
-                              <select class="form-control" id="formControl-wallStyle">
+                            <div class="form-group col-sm-5">
+                              <label for="formControl-doorFace" class="regularcase" data-toggle="tooltip" data-html="true" title="If there is a hinged or pocket door in this wall, we can include it in the installation by matching the door's face to the wall design.">#1 door face(s) <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <select class="form-control" id="formControl-doorFace">
                                 <option>--- choose option ---</option>
-                                <option>not applicable</option>
+                                <option>not applicable / no change</option>
                                 <option>match door frame(s) to wall</option>
-                                <option>match door frame(s) and face(s) to wall</option>
+                                <option>match door frame(s) / face(s) to wall</option>
                                 <option>match face(s) flush to wall</option>
                               </select>
                             </div>
-                            <div class="form-group col-sm-6">
-                              <label for="formControl-wallStyle" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">#1 rehanging of lights/electronics/frames <i class="fa-solid text-primary fa-circle-info"></i></label>
-                              <select class="form-control" id="formControl-wallStyle">
-                                <option>--- select ---</option>
-                                <option>yes</option>
-                                <option>no</option>
+                            <div class="form-group col-sm-3">
+                              <label for="formControl-wallHanging" class="regularcase" data-toggle="tooltip" data-html="true" title="If this wall has anything hung on it that need to be rehung after the wall treatment, OR taken into account in the placement of the wall treatment, add that here.">#1 rehanging <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <select class="form-control" id="formControl-wallHanging">
+                                <option>--- choose option ---</option>
+                                <option>not applicable</option>
+                                <option>framed pictures/art</option>
+                                <option>electronics</option>
+                                <option>both / other</option>
                               </select>
                             </div>
-                          <!--
-                            For each:
-                              - Does the wall have windows with frames/sills that will be integrated into the wall design?
-                              - Does the wall have doors that with frames/face that will be integrated into the wall design?
-                          -->
+                            <div class="form-group col-sm-4">
+                              <label for="formControl-Material" class="regularcase" data-toggle="tooltip" data-html="true" title="Different wall materials require different installation methods.">#1 wall material <i class="fa-solid text-primary fa-circle-info"></i></label>
+                              <select class="form-control" id="formControl-wallMaterial">
+                                <option>--- choose material ---</option>
+                                <option>drywall</option>
+                                <option>plaster</option>
+                                <option>wood</option>
+                                <option>brick</option>
+                                <option>cement</option>
+                                <option>stone</option>
+                                <option>unsure</option>
+                              </select>
+                            </div>
+                          </div>
                         </div>
                         <div class="form-row col-12">
                           <div class="form-group col-12">
                             <hr>
                             <h6 class="text-black bold">Configure Ceilings</h6>
                             <div class="form-row">
-                              <label class="bg-grey full-width">Ceiling #1 Information</label>
+                              <label class="bg-grey full-width">Ceiling #1 Information <i class="fa-solid text-success fa-circle-check pull-right m-t-4 fs-14"></i></label>
                             </div>
-                            <div class="form-row clearfix">
+                            <div class="form-row form-write clearfix tight">
                               <div class="form-group col-sm-6">
-                                <label for="" class="regularcase" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">name ceiling #1 (optional) <i class="fa-solid text-primary fa-circle-info"></i></label>
+                                <label for="" class="regularcase" data-toggle="tooltip" data-html="true" title="Name this ceiling to make it easier to refer to later.">name ceiling #1 (optional) <i class="fa-solid text-primary fa-circle-info"></i></label>
                                 <input type="text" class="full-width no-border">
                               </div>
                               <div class="form-group col-sm-3">
@@ -294,24 +308,113 @@
                                 <label for="" class="regularcase">#1 width (feet)</label>
                                 <input type="text" class="full-width no-border">
                               </div>
-                            </div>
-                            <!--
-                              For each:
-                                - Name this ceiling
-                                - Ceiling dimensions
-                                - Will this design match one or more of its walls?
-                                - Does this ceiling have potlights?
-                                - Does this ceiling have a fan?
-                                - Does this ceiling have a vent?
-                            -->
+                              <div class="form-group col-sm-4">
+                                <label for="formControl-ceilingStyle" class="regularcase" data-toggle="tooltip" data-html="true" title="<ul><li><b>Minimalist</b>: Basic wood with protected natural finish.</li><li><b>Simple</b>: Basic wood, painted, stained; or stacked; or manufactured (i.e. slats).</li><li><b>Moderate</b>: Multiple options from <em>Simple</em>; or irregularly shaped panels; or inclusion of fabric.</li><li><b>Complex</b>: Multiple options from <em>Moderate/Simple</em>; or, multi-piece panels; or configuration for sound absorption.</li><li><b>Art</b>: Let's make it uniquely yours! Graffiti, murals, upholstery, and much more!</li></ul>">#1 overall wall style <i class="fa-solid text-primary fa-circle-info"></i></label>
+                                <select class="form-control" id="formControl-ceilingStyle">
+                                  <option>--- select style ---</option>
+                                  <option>match to wall #(?)</option>
+                                  <option>minimalist</option>
+                                  <option>simple</option>
+                                  <option>moderate</option>
+                                  <option>complex</option>
+                                  <option>art</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-sm-4">
+                                <label for="formControl-ceilingElectrical" class="regularcase" data-toggle="tooltip" data-html="true" title="Outlets and switches will need to be accounted for during the installation. If you'd like them to be relocated, this is your opportunity.  If there are multiple, and you'd like to change the location of at least one, choose <em>Relocate</em>.">#1 outlets / switches <i class="fa-solid text-primary fa-circle-info"></i></label>
+                                <select class="form-control" id="formControl-ceilingElectrical">
+                                  <option>--- choose option ---</option>
+                                  <option>no outlets/switches</option>
+                                  <option>remove and reinstall</option>
+                                  <option>remove and replace</option>
+                                  <option>relocate</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-sm-4">
+                                <label for="formControl-skylight" class="regularcase" data-toggle="tooltip" data-html="true" title="When a ceiling has a skylight, we can <em>omit</em> the frame(s)/box(es) from the installation, or <em>include</em> them by fully integrating the surrounding. Choose one of these options to let us know which solution you'd prefer.">#1 frames / boxes <i class="fa-solid text-primary fa-circle-info"></i></label>
+                                <select class="form-control" id="formControl-skylight">
+                                  <option>--- choose option ---</option>
+                                  <option>not applicable</option>
+                                  <option>omit</option>
+                                  <option>include</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-sm-4">
+                                <label for="formControl-ceilingFixtures" class="regularcase" data-toggle="tooltip" data-html="true" title="Help us account for fixtures, such as lighting, ceiling fans, etc.">#1 lighting / fixtures <i class="fa-solid text-primary fa-circle-info"></i></label>
+                                <select class="form-control" id="formControl-ceilingFixtures">
+                                  <option>--- choose option ---</option>
+                                  <option>no lighting or fixtures</option>
+                                  <option>single light</option>
+                                  <option>potlights / multiple fixtures</option>
+                                  <option>fan, rack lights, chandelier</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-sm-4">
+                                <label for="formControl-flatCeiling" class="regularcase">Is this ceiling flat?</label>
+                                <select class="form-control" id="formControl-flatCeiling">
+                                  <option>--- select ---</option>
+                                  <option>flat / popcorn</option>
+                                  <option>vaulted / coffered</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-sm-4">
+                                <label for="formControl-ceilingHeight" class="regularcase">#1 maximum height</label>
+                                <select class="form-control" id="formControl-ceilingHeight">
+                                  <option>--- choose option ---</option>
+                                  <option>12 feet high, or less</option>
+                                  <option>higher than 12 feet</option>
+                                </select>
+                              </div>
                           </div>
                         </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="form-group col-12">
+                  <div class="form-row col-12 clearfix">
                     <hr class="border-success">
+                    <div class="form-row col-12">
+                      <label for="" class="text-success">Let's cover the unit and its accessibility:</label>
+                    </div>
+                    <div class="form-row col-12 tight m-t-15">
+                      <div class="form-group col-sm-3">
+                        <label for="formControl-province" class="regularcase">Province</label>
+                        <select class="form-control" id="formControl-province">
+                          <option>--- select ---</option>
+                          <option>Ontario</option>
+                          <optgroup label="Other Provinces">
+                            <option>Alberta</option>
+                            <option>British Columbia</option>
+                            <option>Manitoba</option>
+                            <option>Newfoundland & Labrador</option>
+                            <option>New Brunswick</option>
+                            <option>Nova Scotia</option>
+                            <option>Prince Edward Island</option>
+                            <option>Quebec</option>
+                            <option>Saskatchewan</option>
+                          </optgroup>
+                        </select>
+                      </div>
+                      <div class="form-group col-sm-3">
+                        <label for="formControl-city" class="regularcase">City / Town</label>
+                        <select class="form-control" id="formControl-city">
+                          <option>select province first</option>
+                          <option>--- select ---</option>
+                          <option>{dynamic options}</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-sm-6">
+                        <label for="formControl-unit" class="regularcase" data-toggle="tooltip" data-html="true" title="How is this unit accessed?">Unit type <i class="fa-solid text-primary fa-circle-info"></i></label>
+                        <select class="form-control" id="formControl-unit">
+                          <option>--- choose option ---</option>
+                          <option>Single floor, ground-floor access</option>
+                          <option>In a building, no elevator access</option>
+                          <option>In a building, elevator access</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-12">
+                    <hr class="border-success">
                     <p class="small-text">I UNDERSTAND that this is a preliminary estimate generated specifically from the information I'm submitting via this form, and acknowledge that actual project cost may increase/decrease due to information collected during a Site Visit.</p>
                   </div>
                   <div class="col-12 deactivate">
@@ -344,10 +447,9 @@
                     <div class="form-group">
                       <p class="small-text"></p>
                       <p><button class="btn full-width btn-success fs-16 m-t-10">Generate My Free Estimate</button></p>
-                      <p class="small-text hint-text">Use, by one client, in a single end product which end users are not charged for.</p>
+                      <p class="small-text hint-text">&nbsp;</p>
                     </div>
                   </div>
-                </div>
                 </div>
               </div>
               <div class="col-sm-4 p-l-5 p-r-5">
